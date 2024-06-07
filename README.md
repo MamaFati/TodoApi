@@ -7,7 +7,7 @@ To get this repository, run the following command inside your git enabled termin
 ```bash
 $ https://github.com/MamaFati/todoApp-django.git
 ```
-You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guides
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
