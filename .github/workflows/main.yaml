@@ -30,7 +30,7 @@ jobs:
       run: |
         aws deploy create-deployment \
           --application-name todoapi2\
-          --deployment-group-name todoapi2DevelopmentGroup\
+          --deployment-group-name todoapi2Group\
           --github-location repository=${{ github.repository }},commitId=${{ github.sha }}      
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
