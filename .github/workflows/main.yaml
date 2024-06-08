@@ -29,8 +29,8 @@ jobs:
     - name: Deploy to AWS CodeDeploy
       run: |
         aws deploy create-deployment \
-          --application-name todoApp \
-          --deployment-group-name todoApp-Group \
+          --application-name djapp \
+          --deployment-group-name djapp-deployment-group \
           --github-location repository=${{ github.repository }},commitId=${{ github.sha }}      
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
